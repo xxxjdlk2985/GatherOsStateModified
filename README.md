@@ -6,7 +6,7 @@ Steps:/n
 
 $value = (Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Control\ProductOptions).OSProductPfn
 
-path:\to\gatherosstatemodified.exe /c Pfn=$value`;PKeyIID=703977068648967916672893815045129414520161831634327680443048245 /n
+path:\to\gatherosstatemodified.exe /c Pfn=$value`;PKeyIID=703977068648967916672893815045129414520161831634327680443048245 \n
 
 clipup -v -o -altto path:\to\gatherosstatemodified.exe
 
